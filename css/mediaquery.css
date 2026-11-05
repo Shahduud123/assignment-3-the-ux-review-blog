@@ -1,0 +1,76 @@
+@media screen and (max-width: 1024px) {
+  .navbar-section .menu,
+  .action {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .arts .art-1 {
+    display: flex;
+    flex-direction: row;
+
+    gap: 15px;
+  }
+}
+/* md */
+@media screen and (min-width: 768px) {
+    .footer .container .part-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "side-1 side-1  side-1"
+  "side-2 side-3 side-3";
+}
+}
+/* lg */
+@media screen and (min-width: 1024px) {
+  .content-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left-content right-content";
+  }
+  .content-section .left-content {
+    grid-area: left-content;
+  }
+  .content-section .right-content {
+    grid-area: right-content;
+  }
+  .artictal-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left-content left-content right-content";
+  }
+  .artictal-section .left-content {
+    grid-area: left-content;
+  }
+  .artictal-section .right-content {
+    grid-area: right-content;
+  }
+  .authers-section .authers .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "card-1 card-2 card-3";
+}
+.rebellion-section .part-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "card-1 card-2";
+}
+.footer .container .part-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "side-1 side-1 side-2 side-3 side-3";
+}}
+
+/* xl */
+@media screen and (min-width: 1280px) {
+}
+/* xxl */
+@media screen and (min-width: 1538px) {
+}
